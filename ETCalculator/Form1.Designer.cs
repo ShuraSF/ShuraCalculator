@@ -47,6 +47,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtInput = new System.Windows.Forms.TextBox();
             this.lblResult = new System.Windows.Forms.Label();
+            this.button16 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -153,7 +154,7 @@
             this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button10.Location = new System.Drawing.Point(12, 359);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(158, 79);
+            this.button10.Size = new System.Drawing.Size(76, 79);
             this.button10.TabIndex = 9;
             this.button10.Text = "0";
             this.button10.UseVisualStyleBackColor = true;
@@ -247,11 +248,23 @@
             this.lblResult.TabIndex = 16;
             this.lblResult.Click += new System.EventHandler(this.label2_Click);
             // 
+            // button16
+            // 
+            this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button16.Location = new System.Drawing.Point(94, 359);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(76, 79);
+            this.button16.TabIndex = 17;
+            this.button16.Text = "C";
+            this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(345, 450);
+            this.Controls.Add(this.button16);
             this.Controls.Add(this.lblResult);
             this.Controls.Add(this.txtInput);
             this.Controls.Add(this.label1);
@@ -300,6 +313,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtInput;
         private System.Windows.Forms.Label lblResult;
+        private System.Windows.Forms.Button button16;
     }
 }
 
